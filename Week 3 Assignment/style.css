@@ -1,0 +1,68 @@
+/* Basic Reset to remove default margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ID Selector: Styling the 'about' section */
+#about {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+}
+
+/* Class Selector: Styling description paragraph */
+.description {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Styling Image */
+img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Link Styling */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
